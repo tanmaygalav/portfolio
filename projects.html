@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay Galav | Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="stylesheets/projects.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-slate-200 min-h-screen font-sans flex flex-col">
+    <!-- Navbar -->
+    <nav class="bg-slate-800/90 backdrop-blur-md fixed w-full z-10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="index.html" class="text-2xl font-bold text-cyan-400">TG</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-cyan-400 transition-colors">Home</a>
+                    <a href="#projects" class="text-cyan-400 font-medium">Projects</a>
+                    <a href="#connect" class="hover:text-cyan-400 transition-colors">Connect</a>
+                    <a href="#resume" class="hover:text-cyan-400 transition-colors">Resume</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-slate-800 px-4 pb-4">
+            <div class="flex flex-col space-y-3">
+                <a href="index.html" class="hover:text-cyan-400 transition-colors">Home</a>
+                <a href="#projects" class="text-cyan-400 font-medium">Projects</a>
+                <a href="#connect" class="hover:text-cyan-400 transition-colors">Connect</a>
+                <a href="#resume" class="hover:text-cyan-400 transition-colors">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-24 pb-12 max-w-7xl mx-auto px-4 w-full">
+        <h1 class="text-3xl font-bold mb-8 text-cyan-400">My Projects</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Project 1 - Website -->
+            <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/portfolioweb.png" 
+                         alt="Portfolio Website" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Portfolio Website</h2>
+                    <p class="text-slate-400 mb-4">A responsive portfolio website built with HTML, CSS, and JavaScript to showcase my work and skills.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">HTML</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Tailwind CSS</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">JavaScript</span>
+                    </div>
+                    <a href="#" class="inline-block bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-medium py-2 px-4 rounded transition-colors">
+                        Visit Website <i class="fas fa-external-link-alt ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 - Hardware -->
+            <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/iot.JPG" 
+                         alt="IoT Smart Agriculture" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">IoT Smart Agriculture</h2>
+                    <p class="text-slate-400 mb-4">An IoT-based system to monitor soil conditions and automate irrigation using various sensors.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Arduino</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Soil Sensor</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">DHT11</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 - Website -->
+            <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/hanumantdhamweb.png" 
+                         alt="E-commerce Website" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Trust Website</h2>
+                    <p class="text-slate-400 mb-4">A full-stack trust website.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">React</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Node.js</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">MongoDB</span>
+                    </div>
+                    <a href="https://hanumantdham.netlify.app/" class="inline-block bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-medium py-2 px-4 rounded transition-colors">
+                        Visit Website <i class="fas fa-external-link-alt ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 4 - Hardware -->
+            <!-- <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Home Automation" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Home Automation System</h2>
+                    <p class="text-slate-400 mb-4">IoT-based control of home appliances with voice commands and mobile app integration.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">ESP8266</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Firebase</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Android</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Project 5 - Website -->
+            <!-- <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Data Visualization Dashboard" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Data Visualization Dashboard</h2>
+                    <p class="text-slate-400 mb-4">Interactive dashboard for visualizing sensor data with real-time updates and analytics.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">D3.js</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Python</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Flask</span>
+                    </div>
+                    <a href="#" class="inline-block bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-medium py-2 px-4 rounded transition-colors">
+                        Visit Website <i class="fas fa-external-link-alt ml-1"></i>
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Project 6 - Hardware -->
+            <!-- <div class="bg-slate-800 rounded-xl shadow-lg border border-slate-700 overflow-hidden hover:shadow-cyan-400/20 transition-shadow">
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1581093057305-3ec4e7b874cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="ECG Signal Processing" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">ECG Signal Processing</h2>
+                    <p class="text-slate-400 mb-4">MATLAB implementation for ECG signal analysis with noise reduction and feature extraction.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">MATLAB</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">DSP</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded text-xs">Biomedical</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <footer class="bg-slate-800 border-t border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1: Brand Info -->
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-cyan-400">Tanmay Galav</h3>
+                    <p class="text-slate-400">Electronics & Communication Engineering Student</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/vitiantanmay" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/Vitiantanmay" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-slate-200">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-slate-400 hover:text-cyan-400 transition-colors">Home</a></li>
+                        <li><a href="projects.html" class="text-slate-400 hover:text-cyan-400 transition-colors">Projects</a></li>
+                        <!-- <li><a href="#resume" class="text-slate-400 hover:text-cyan-400 transition-colors">Resume</a></li> -->
+                        <li><a href="#connect" class="text-slate-400 hover:text-cyan-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Column 3: Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-slate-200">Contact</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-cyan-400"></i>
+                            <span>VIT Chennai, Tamil Nadu</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-cyan-400"></i>
+                            <a href="mailto:your.email@example.com" class="hover:text-cyan-400">tanmaygalav@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3 text-cyan-400"></i>
+                            <span>+91 63502 38176</span>
+                        </li>
+                    </ul>
+                </div>
+    
+    
+            <!-- Copyright -->
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-slate-500 text-sm">
+                <p>&copy; 2023 Tanmay Galav. All rights reserved.</p>
+                <p class="mt-2">Built with <i class="fas fa-heart text-red-400"></i> using HTML, Tailwind CSS, and JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="javascripts/projects.js"></script>
+</body>
+</html>

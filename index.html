@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay Galav | ECE Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body class="bg-slate-900 text-slate-200 min-h-screen font-sans flex flex-col">
+    <!-- Navbar -->
+    <nav class="bg-slate-800/90 backdrop-blur-md fixed w-full z-10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-cyan-400">TG</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="projects.html" class="hover:text-cyan-400 transition-colors">Projects</a>
+                    <a href="#connect" class="hover:text-cyan-400 transition-colors">Connect</a>
+                    <a href="#resume" class="hover:text-cyan-400 transition-colors">Resume</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-slate-800 px-4 pb-4">
+            <div class="flex flex-col space-y-3">
+                <a href="projects.html" class="hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#connect" class="hover:text-cyan-400 transition-colors">Connect</a>
+                <a href="#resume" class="hover:text-cyan-400 transition-colors">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-24 pb-12 max-w-7xl mx-auto px-4 w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 h-full">
+            <!-- Left Column (Profile + About) -->
+            <div class="lg:col-span-2 flex flex-col gap-6 h-full">
+                <!-- Profile Card -->
+                <div class="bg-slate-800 rounded-xl p-6 shadow-lg border border-slate-700 flex-grow">
+                    <div class="flex flex-col items-center h-full">
+                        <div class="w-32 h-32 rounded-full overflow-hidden border-2 border-cyan-400 mb-4">
+                            <img src="images/profilebg.png" alt="Tanmay Galav" class="w-full h-full object-cover">
+                        </div>
+                        <h1 class="text-2xl font-bold text-center">Tanmay Galav</h1>
+                        <p class="text-slate-400 text-center mb-4">ECE Student @ VIT Chennai</p>
+                        
+                        <div class="flex space-x-4 mt-auto">
+                            <a href="https://github.com/Vitiantanmay" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vitiantanmay/" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/tanmay_galav/" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                                <i class="fab fa-instagram text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Me Card -->
+                <div class="bg-slate-800 rounded-xl p-6 shadow-lg border border-slate-700 flex-grow">
+                    <h2 class="text-xl font-bold mb-4 text-cyan-400">About Me</h2>
+                    <p class="text-slate-300 mb-4">
+                        I'm Tanmay Galav, a B.Tech ECE student at VIT Chennai with a passion for combining software and hardware to build innovative tech solutions.  
+                    </p>
+                    <p class="text-slate-300 mb-4">
+                        I have hands-on experience in Python, Java, MongoDB, JavaFX, full-stack web development, and IoT systems using ESP32.
+                    </p>
+                    <p class="text-slate-300">
+                        My key projects include a 4-bit digital lock system, smart glasses for the visually impaired, a sentiment analysis tool, a banking app with a JavaFX UI, and a cause-driven website for the Hanumant Dham Trust. I enjoy building impactful, real-world solutions that blend creativity with technology.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Skills Card (Large right column) -->
+            <div class="lg:col-span-3 bg-slate-800 rounded-xl p-6 shadow-lg border border-slate-700 h-full">
+                <h2 class="text-xl font-bold mb-6 text-cyan-400">Skills & Experience</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 h-[calc(100%-3rem)]">
+                    <!-- Technical Skills -->
+                    <div class="flex flex-col">
+                        <h3 class="font-semibold mb-3 text-lg">Technical Skills</h3>
+                        <div class="space-y-4 flex-grow">
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Web Development</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="bg-cyan-400 h-2 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>DSA</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="bg-cyan-400 h-2 rounded-full" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Python</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="bg-cyan-400 h-2 rounded-full" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Embedded Systems</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="bg-cyan-400 h-2 rounded-full" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Java</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="bg-cyan-400 h-2 rounded-full" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projects & Experience -->
+                    <div class="flex flex-col">
+                        <h3 class="font-semibold mb-3 text-lg">Projects & Experience</h3>
+                        <div class="space-y-4 flex-grow overflow-y-auto pr-2">
+                            <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">IoT Based Smart Agriculture</h4>
+                                <p class="text-sm text-slate-400">Used sensors with Arduino to monitor soil conditions</p>
+                                <p class="text-xs text-slate-500 mt-1">Tech: Arduino, Soil Moisture Sensor, DHT11</p>
+                            </div>
+                            <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">Hanumant Dham Trust Website</h4>
+                                <p class="text-sm text-slate-400">Built with HTML, Tailwind CSS, JavaScript and Node JS</p>
+                                <p class="text-xs text-slate-500 mt-1">Tech: Next.js, Tailwind CSS, NodeJS</p>
+                            </div>
+                            <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">Portfolio Website</h4>
+                                <p class="text-sm text-slate-400">Built with HTML, Tailwind CSS, JavaScript and Node JS</p>
+                                <p class="text-xs text-slate-500 mt-1">Tech: Tailwind CSS, NodeJS</p>
+                            </div>
+                            <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">Home Automation System</h4>
+                                <p class="text-sm text-slate-400">IoT-based control of home appliances</p>
+                                <p class="text-xs text-slate-500 mt-1">Tech: ESP8266, Firebase, Android</p>
+                            </div>
+                            <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">VIT Chennai</h4>
+                                <p class="text-sm text-slate-400">B.Tech in ECE (2024-2028)</p>
+                                <p class="text-xs text-slate-500 mt-1">CGPA: 8.5/10</p>
+                            </div>
+                            <!-- <div class="bg-slate-700/50 p-4 rounded-lg">
+                                <h4 class="font-medium text-cyan-400">Summer Internship</h4>
+                                <p class="text-sm text-slate-400">Embedded Systems Development</p>
+                                <p class="text-xs text-slate-500 mt-1">Company: XYZ Technologies</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="bg-slate-800 border-t border-slate-700">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Column 1: Brand Info -->
+            <div class="space-y-4">
+                <h3 class="text-xl font-bold text-cyan-400">Tanmay Galav</h3>
+                <p class="text-slate-400">Electronics & Communication Engineering Student</p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/vitiantanmay" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/Vitiantanmay" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="text-slate-400 hover:text-cyan-400 transition-colors">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-200">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="text-slate-400 hover:text-cyan-400 transition-colors">Home</a></li>
+                    <li><a href="projects.html" class="text-slate-400 hover:text-cyan-400 transition-colors">Projects</a></li>
+                    <!-- <li><a href="#resume" class="text-slate-400 hover:text-cyan-400 transition-colors">Resume</a></li> -->
+                    <li><a href="#connect" class="text-slate-400 hover:text-cyan-400 transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-200">Contact</h4>
+                <ul class="space-y-2 text-slate-400">
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt mt-1 mr-3 text-cyan-400"></i>
+                        <span>VIT Chennai, Tamil Nadu</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-envelope mt-1 mr-3 text-cyan-400"></i>
+                        <a href="mailto:your.email@example.com" class="hover:text-cyan-400">tanmaygalav@gmail.com</a>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-phone-alt mt-1 mr-3 text-cyan-400"></i>
+                        <span>+91 63502 38176</span>
+                    </li>
+                </ul>
+            </div>
+
+
+        <!-- Copyright -->
+        <div class="border-t border-slate-700 mt-8 pt-6 text-center text-slate-500 text-sm">
+            <p>&copy; 2023 Tanmay Galav. All rights reserved.</p>
+            <p class="mt-2">Built with <i class="fas fa-heart text-red-400"></i> using HTML, Tailwind CSS, and JavaScript</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="javascripts/script.js"></script>
+</body>
+</html>
