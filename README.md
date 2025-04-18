@@ -34,7 +34,7 @@ A beautiful multi-page donation platform for a cow-rescue trust – combining en
 
 ## 📈 GitHub Stats
 
-![Tanmay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tanmaygalav&show_icons=true&theme=radical)
+![Tanmay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vitiantanmay&show_icons=true&theme=radical)
 
 ---
 
