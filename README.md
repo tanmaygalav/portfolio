@@ -1,64 +1,49 @@
-# Tanmay Galav — Developer Portfolio
+# 👋 Hi there! I'm Tanmay Galav
 
-Welcome to the official GitHub repository of my personal developer portfolio.  
-This portfolio showcases who I am, the projects I've built, my skills, and the journey I'm on as a future full-stack developer and innovator.
-
----
-
-## 🚀 Live Demo  
-[**View Portfolio Website**](https://your-live-site-link.com)  
-*(Replace with actual deployed site link)*
+Welcome to my GitHub profile! I'm a passionate Electronics and Communication Engineering student at VIT Chennai, blending my love for **hardware innovation** with **modern software development**. From building IoT-based smart systems with the ESP32 to crafting full-stack web applications, I’m on a mission to turn creative tech ideas into real-world solutions.
 
 ---
 
-## 🧠 About Me
+## 🚀 What I Do
 
-I’m **Tanmay Galav**, an Electronics and Communication Engineering student at VIT Chennai, with a passion for **web development**, **IoT innovation**, and impactful engineering projects.
-
-- Focused on **modern, user-first design** principles  
-- Building full-stack apps and smart systems with **ESP32**, **MongoDB**, **Java**, **Python**, and more  
-- Passionate about projects that **solve real-world problems**  
-- Exploring AI, automation, and next-gen tech
+- 🖥️ **Full-Stack Development** – Java, Python, MongoDB, Node.js, and Tailwind CSS
+- 📡 **IoT & Embedded Systems** – ESP32, sensors, displays, and smart automation
+- 🧠 **AI & ML Explorations** – Sentiment Analysis, Smart Vision systems
+- 🔬 **Electronics Projects** – Flip-Flop-based digital systems, LTspice simulations
 
 ---
 
-## ✨ Features
+## 🧩 Featured Projects
 
-- Smooth, responsive, mobile-friendly design  
-- Animated UI for an engaging experience  
-- Tailwind CSS powered clean interface  
-- Modular and maintainable codebase  
-- Sections include:
-  - Home
-  - About Me
-  - Skills
-  - Achievements
-  - Projects
-  - Contact
-  - Blog *(coming soon!)*
+🌐 **OTT Web Platform**  
+A sleek and fast streaming platform built using Tailwind CSS, React, and Node.js – focused on performance and UX.
 
----
+🔐 **Digital Lock with Flip-Flops + ESP32**  
+Combining classic digital logic with modern microcontrollers to build a binary input lock system.
 
-## 🛠️ Tech Stack
+🕶️ **Smart Glasses for the Visually Impaired**  
+An ESP32-powered wearable providing obstacle detection, haptic feedback, and text-to-speech capabilities.
 
-| Category     | Tools & Libraries |
-|--------------|-------------------|
-| Frontend     | HTML5, Tailwind CSS, JavaScript |
-| Animation/UI | AOS (Animate on Scroll), SVGs, Transitions |
-| Deployment   | GitHub Pages (or your choice) |
+📊 **Twitter Sentiment Analysis**  
+Using Python and NLP to classify tweet sentiments – built with a strong backend explanation focus.
+
+🌱 **Hanumant Dham Website**  
+A beautiful multi-page donation platform for a cow-rescue trust – combining engaging UI with persuasive design techniques.
 
 ---
 
-## 📁 Folder Structure
+## 📈 GitHub Stats
 
-```bash
-├── index.html
-├── /assets
-│   ├── images/
-│   └── icons/
-├── /css
-│   └── styles.css (or Tailwind setup)
-├── /js
-│   └── main.js
-├── /blog (coming soon)
-├── README.md
+![Tanmay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tanmaygalav&show_icons=true&theme=radical)
+
+---
+
+## 📬 Let’s Connect
+ 
+- 📧 Email: tanmaygalav@gmail.com  
+- 🌍 Portfolio Website: https://vitiantanmay.github.io/portfolio/  
+
+---
+
+> “Technology is best when it brings people together.” – Matt Mullenweg  
+Let's build a smarter, more connected world together.
