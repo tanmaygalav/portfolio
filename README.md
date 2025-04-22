@@ -2,7 +2,7 @@
 
 Welcome to my GitHub profile! I'm a passionate Electronics and Communication Engineering student at VIT Chennai, blending my love for **hardware innovation** with **modern software development**. From building IoT-based smart systems with the ESP32 to crafting full-stack web applications, I’m on a mission to turn creative tech ideas into real-world solutions.
 
----
+----
 
 ## 🚀 What I Do
 
