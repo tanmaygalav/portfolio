@@ -43,7 +43,7 @@ A beautiful multi-page donation platform for a cow-rescue trust – combining en
 - 📧 Email: tanmaygalav@gmail.com  
 - 🌍 Portfolio Website: https://vitiantanmay.github.io/portfolio/  
 
-----
+-----
 
 > “Technology is best when it brings people together.” – Matt Mullenweg  
 Let's build a smarter, more connected world together.
