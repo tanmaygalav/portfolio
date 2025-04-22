@@ -36,7 +36,7 @@ A beautiful multi-page donation platform for a cow-rescue trust – combining en
 
 ![Tanmay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vitiantanmay&show_icons=true&theme=radical)
 
----
+----
 
 ## 📬 Let’s Connect
  
