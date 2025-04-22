@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I'm a passionate Electronics and Communication Eng
 - 🧠 **AI & ML Explorations** – Sentiment Analysis, Smart Vision systems
 - 🔬 **Electronics Projects** – Flip-Flop-based digital systems, LTspice simulations
 
----
+----
 
 ## 🧩 Featured Projects
 
