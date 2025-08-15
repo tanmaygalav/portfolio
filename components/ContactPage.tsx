@@ -15,7 +15,7 @@ const ContactPage: React.FC = () => {
           I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out. I'll do my best to get back to you!
         </p>
         <a 
-          href={`mailto:${tanmaygalav@gmail.com}`} 
+          href={`mailto:${"tanmaygalav@gmail.com"}`} 
           className="inline-flex items-center gap-2 bg-white text-black font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition-colors duration-300"
         >
           <MailIcon className="w-5 h-5" />
