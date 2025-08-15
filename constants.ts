@@ -41,8 +41,8 @@ export const SKILLS: Skill[] = [
 ];
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/example',
-  linkedin: 'https://linkedin.com/in/example',
-  x: 'https://x.com/example',
-  email: 'tanmay.galav@example.com'
+  github: 'https://github.com/Vitiantanmay',
+  linkedin: 'https://linkedin.com/in/vitiantanmay/',
+  // x: 'https://x.com/example',
+  email: 'tanmaygalav@gmail.com'
 };
