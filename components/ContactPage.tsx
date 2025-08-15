@@ -22,10 +22,10 @@ const ContactPage: React.FC = () => {
           Say Hello
         </a>
         <div className="mt-12 flex justify-center space-x-6">
-          <a href={github.com/Vitiantanmay} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+          <a href={"github.com/Vitiantanmay"} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
             <GithubIcon className="w-8 h-8" />
           </a>
-          <a href={linkedin.com/in/vitiantanmay/} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+          <a href={"linkedin.com/in/vitiantanmay/"} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
             <LinkedinIcon className="w-8 h-8" />
           </a>
 {/*           <a href={SOCIAL_LINKS.x} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
