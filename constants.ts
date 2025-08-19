@@ -6,26 +6,31 @@ export const PROJECTS: Project[] = [
     title: 'Trust Website',
     description: 'A comprehensive platform for a charitable trust, enhancing online presence and donor engagement.',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+    link: "https://github.com/Vitiantanmay/hanumant-dham",
   },
   {
-    title: 'OTT Platform',
-    description: 'A feature-rich Over-The-Top streaming service with user authentication and a dynamic content library.',
+    title: 'TerraPulse',
+    description: 'Global real time tracker',
     tags: ['MERN Stack', 'Firebase', 'Stripe API'],
+    link: "https://github.com/Vitiantanmay/TerraPulse",
   },
   {
-    title: 'Job Recommendation Platform',
-    description: 'An intelligent system that matches job seekers with suitable opportunities using machine learning algorithms.',
-    tags: ['Python', 'Flask', 'Scikit-learn', 'React'],
+    title: 'FootPrints',
+    description: 'A modern Shoes Shop',
+    tags: ['Python', 'Flask', 'React','TypeScript'],
+    link: "https://github.com/Vitiantanmay/footprints",
   },
   {
     title: '8 Bit Digital Lock',
     description: 'A hardware-based security project implementing a robust 8-bit digital locking mechanism.',
     tags: ['Verilog', 'FPGA', 'Digital Logic'],
+    link: "https://github.com/Vitiantanmay/",
   },
   {
     title: 'Hardware Task Scheduler',
     description: 'A low-level scheduler designed for embedded systems to manage and prioritize hardware tasks efficiently.',
     tags: ['C++', 'Embedded Systems', 'RTOS'],
+    link: "https://github.com/Vitiantanmay/"
   },
 ];
 
