@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'TerraPulse',
-    description: 'Global real time tracker',
+    description: 'TerraPulse is a real-time tracking platform that visualizes live data streams such as earthquakes, ISS position, ships, flights, and more on an interactive map.',
     tags: ['MERN Stack', 'Firebase', 'Stripe API'],
     link: "https://github.com/Vitiantanmay/TerraPulse",
   },
