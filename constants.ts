@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'FootPrints',
-    description: 'A modern Shoes Shop',
+    description: 'A modern Shoes Shop that emphasizes the minimal design.',
     tags: ['Python', 'Flask', 'React','TypeScript'],
     link: "https://github.com/Vitiantanmay/footprints",
   },
