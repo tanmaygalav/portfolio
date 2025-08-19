@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
     title: '8 Bit Digital Lock',
     description: 'A hardware-based security project implementing a robust 8-bit digital locking mechanism.',
     tags: ['Verilog', 'FPGA', 'Digital Logic'],
-    link: "https://github.com/Vitiantanmay/",
+    link: "https://github.com/Vitiantanmay/8-Bit-Digital-Lock",
   },
   {
     title: 'Hardware Task Scheduler',
