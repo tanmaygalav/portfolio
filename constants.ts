@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
     title: 'FootPrints',
     description: 'A modern Shoes Shop that emphasizes the minimal design.',
     tags: ['Python', 'Flask', 'React','TypeScript'],
-    link: "https://github.com/Vitiantanmay/footprints",
+    link: "https://footprints-shoe.netlify.app/",
   },
   {
     title: '8 Bit Digital Lock',
