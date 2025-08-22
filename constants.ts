@@ -3,6 +3,12 @@ import type { Project, Skill } from './types';
 
 export const PROJECTS: Project[] = [
   {
+    title: 'CosmosChronicle',
+    description: 'CosmosChronicle is an interactive 3D timeline showcasing the greatest space missions from ISRO, NASA, and SpaceX.',
+    tags: ['React', 'TypeScript', 'Vite', 'TailWind'],
+    link: "https://cosmoschronicle.netlify.app/",
+  },
+  {
     title: 'Trust Website',
     description: 'A comprehensive platform for a charitable trust, enhancing online presence and donor engagement.',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
