@@ -9,6 +9,12 @@ export const PROJECTS: Project[] = [
     link: "https://github.com/Vitiantanmay/hanumant-dham",
   },
   {
+    title: 'CipherLock',
+    description: 'CipherLock Lab is an interactive, hypermodern web app where you can explore digital locks, logic gates, and classic ciphers',
+    tags: ['React', 'TypeScript', 'Vite', 'TailWind'],
+    link: "https://cipherlock-lab.netlify.app/",
+  },
+  {
     title: 'TerraPulse',
     description: 'TerraPulse is a real-time tracking platform that visualizes live data streams such as earthquakes, ISS position, ships, flights, and more on an interactive map.',
     tags: ['MERN Stack', 'Firebase', 'Stripe API'],
