@@ -10,6 +10,12 @@ export const PROJECTS: Project[] = [
     link: "https://glossgen.netlify.app/",
   },
   {
+    title: 'Resona',
+    description: 'Resona – A sleek, frontend-only simulator for circuits and waveforms with real-time, minimal MacOS-inspired design.',
+    tags: ['React', 'TypeScript', 'Vite', 'TailWind'],
+    link: "https://resona1.netlify.app/",
+  },
+  {
     title: 'CosmosChronicle',
     description: 'CosmosChronicle is an interactive 3D timeline showcasing the greatest space missions from ISRO, NASA, and SpaceX.',
     tags: ['React', 'TypeScript', 'Vite', 'TailWind'],
