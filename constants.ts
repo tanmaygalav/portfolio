@@ -10,6 +10,12 @@ export const PROJECTS: Project[] = [
     link: "https://glossgen.netlify.app/",
   },
   {
+    title: 'CodeSage',
+    description: 'A power full web code editor.',
+    tags: ['React', 'TypeScript','TailWind','Vs APIs','JavaScript'],
+    link: "https://codesageide.netlify.app/",
+  },
+  {
     title: 'Resona',
     description: 'Resona – A sleek, frontend-only simulator for circuits and waveforms with real-time, minimal MacOS-inspired design.',
     tags: ['React', 'TypeScript', 'Vite', 'TailWind'],
