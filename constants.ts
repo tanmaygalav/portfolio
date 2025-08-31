@@ -10,6 +10,12 @@ export const PROJECTS: Project[] = [
     link: "https://glossgen.netlify.app/",
   },
   {
+    title: 'Code Vault',
+    description: 'Your personal archive of code snippets.',
+    tags: ['React', 'TypeScript', 'Vite', 'TailWind','Google Gemini API'],
+    link: "https://codevaulttt.netlify.app/",
+  },
+  {
     title: 'CodeSage',
     description: 'A power full web code editor.',
     tags: ['React', 'TypeScript','TailWind','Vs APIs','JavaScript'],
