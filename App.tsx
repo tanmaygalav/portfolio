@@ -1,10 +1,11 @@
-
 import React, { useState, Suspense } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ProjectsPage from './components/ProjectsPage';
 import ContactPage from './components/ContactPage';
+import StaircaseTransition from './components/StaircaseTransition';
 import type { Page } from './types';
 
 const App: React.FC = () => {
@@ -34,7 +35,12 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
         <main className="px-4 sm:px-8 md:px-12 lg:px-24 py-16">
-           {renderPage()}
+           <AnimatePresence mode="wait">
+            <div key={currentPage}>
+              <StaircaseTransition />
+              {renderPage()}
+            </div>
+           </AnimatePresence>
         </main>
       </div>
     </div>
