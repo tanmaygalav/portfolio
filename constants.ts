@@ -16,6 +16,12 @@ export const PROJECTS: Project[] = [
     link: "https://codevaulttt.netlify.app/",
   },
   {
+    title: 'SubSleuth',
+    description: 'SubSleuth uses AI to instantly scan your inbox for recurring payments and online orders, giving you a clear picture of your digital spending.',
+    tags: ['React', 'TypeScript', 'Vite', 'Three.JS','Google Gemini API'],
+    link: "https://subsleuth.vercel.app",
+  },
+  {
     title: 'CodeSage',
     description: 'A power full web code editor.',
     tags: ['React', 'TypeScript','TailWind','Vs APIs','JavaScript'],
