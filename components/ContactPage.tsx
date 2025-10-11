@@ -7,7 +7,7 @@ import MailIcon from './icons/MailIcon';
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-center pt-16">
+    <div className="min-h-screen flex flex-col items-center justify-center text-center">
       <div className="max-w-2xl">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">Get In Touch</h2>
         <p className="text-gray-300 mb-8 leading-relaxed">
