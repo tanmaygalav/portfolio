@@ -9,10 +9,17 @@ const AboutPage: React.FC = () => {
         <div className="flex flex-col justify-center">
           <h2 className="text-4xl font-bold mb-4 tracking-tighter">About Me</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
-            I am Tanmay Galav, a passionate and driven Bachelor of Technology student at VIT Chennai, specializing in Electronics and Communication Engineering. My curiosity extends beyond my core curriculum into the dynamic world of software development.
+            Tanmay Galav — ECE student at VIT Chennai.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            I build hardware-software systems using Java, Python, MERN, and ESP32.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            With a strong foundation in the MERN stack, Java, and Python, I enjoy building robust and scalable applications. I'm constantly exploring new technologies and sharpening my problem-solving skills through Data Structures and Algorithms. I thrive in collaborative environments and am always eager to take on new challenges.
+            My focus is on logic, system design, and real-world constraints. I work on IoT, digital systems, and backend-driven applications while strengthening my foundations in data structures and algorithms.
+            
+          </p>
+          <p className="text-blue-300 leading-relaxed mb-4">
+            Less noise. More signal.
           </p>
         </div>
         <div>
