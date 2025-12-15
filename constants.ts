@@ -78,14 +78,23 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-    { name: 'MERN Stack', level: 'Advanced' },
+    { name: 'React / Next.js', level: 'Advanced' },
+    { name: 'Node.js / Express', level: 'Advanced' },
+    { name: 'TypeScript', level: 'Advanced' },
+    { name: 'MongoDB', level: 'Intermediate' },
+    { name: 'SQL', level: 'Intermediate' },
+
     { name: 'Java', level: 'Intermediate' },
     { name: 'Python', level: 'Intermediate' },
     { name: 'Data Structures & Algorithms', level: 'Intermediate' },
-    { name: 'React / Next.js', level: 'Advanced' },
-    { name: 'Node.js / Express', level: 'Advanced' },
-    { name: 'SQL / NoSQL (MongoDB)', level: 'Intermediate' },
-    { name: 'TypeScript', level: 'Advanced' },
+
+    { name: 'Machine Learning (Foundations)', level: 'Beginner' },
+    { name: 'Python for ML (NumPy, Pandas)', level: 'Beginner' },
+
+    { name: 'ESP32 / IoT Systems', level: 'Intermediate' },
+    { name: 'Digital Electronics', level: 'Intermediate' },
+
+    { name: 'Linux (Mint)', level: 'Intermediate' },
 ];
 
 export const SOCIAL_LINKS = {
