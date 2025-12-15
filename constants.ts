@@ -82,7 +82,6 @@ export const SKILLS: Skill[] = [
     { name: 'Node.js / Express', level: 'Advanced' },
     { name: 'TypeScript', level: 'Advanced' },
     { name: 'MongoDB', level: 'Intermediate' },
-    { name: 'SQL', level: 'Intermediate' },
 
     { name: 'Java', level: 'Intermediate' },
     { name: 'Python', level: 'Intermediate' },
