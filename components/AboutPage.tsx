@@ -14,7 +14,7 @@ const AboutPage: React.FC = () => {
           <p className="text-gray-300 leading-relaxed mb-4">
             I build hardware-software systems using Java, Python, MERN, and ESP32.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed mb-4">
             My focus is on logic, system design, and real-world constraints. I work on IoT, digital systems, and backend-driven applications while strengthening my foundations in data structures and algorithms.
             
           </p>
