@@ -15,7 +15,14 @@ const HomePage: React.FC = () => {
         </h1>
         <div className="mt-4 text-xl md:text-2xl text-gray-300 h-8">
           <TypingAnimation
-            texts={['MERN Stack Developer', 'ECE Student @ VIT Chennai', 'Tech Enthusiast']}
+            texts={[
+              'Systems Thinking',
+              'Full-Stack Engineering',
+              'Embedded & IoT',
+              'Algorithms',
+              'ML Foundations'
+            ]
+            }
           />
         </div>
       </div>
